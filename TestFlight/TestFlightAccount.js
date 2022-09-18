@@ -26,13 +26,12 @@ QuantumultX 添加脚本：
 *********************************
 
 QuantumultX重写引用地址：
-https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
+https://raw.githubusercontent.com/xf857/quantumult_X_2.0/main/TestFlight/TestFlightAccount.js
 
 注：以上引用地址需要打开并使用KOP-XIAO资源解析器，如没有解析器请使用脚本配置：
 
 [rewrite_local]
-^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
-
+^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/xf857/quantumult_X_2.0/main/TestFlight/TestFlightAccount.js
 [mitm]
 hostname = testflight.apple.com
 
